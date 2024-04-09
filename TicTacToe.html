@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="TicTacToe.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div class="MainContainer">
+    <div class="grid">
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+      <div class="case"></div>
+    </div>
+  </div>
+  <div class="text">
+    <p>Au tour du joueur: <span id="joueur">1</span></p>
+    <p>Score Joueur 1 = <span id="Score1">0</span></p>
+    <p>Score Joueur 2 = <span id="Score2">0</span></p><br>
+    <button class="button" id="NewGame" onclick="reset()">New Game</button><br>
+    <button class="button" id="ResetScore" onclick="resetScore()">Reset Score</button>
+    <p><span id="result"></span></p>
+    
+  </div>
+
+  <script src="TicTacToe.js"></script>
+</body>
+</html>
